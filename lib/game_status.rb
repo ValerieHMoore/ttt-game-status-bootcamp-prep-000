@@ -56,6 +56,7 @@ end
 
 def winner(board)
   if won?(board) != false
-  
+  won?(board).last
+
 end
 end
