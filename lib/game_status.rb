@@ -56,7 +56,7 @@ end
 
 def winner(board)
   if won?(board) != false &&
-  win_combination[3] == board[i]
+  won?(board)[3] == board[i]
   return board[i]
 end
 end
