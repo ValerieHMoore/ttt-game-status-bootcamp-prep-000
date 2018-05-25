@@ -55,8 +55,7 @@ end
 end
 
 def winner(board)
-  if won?(board) != false &&
-  won?(board)[3] == board[index]
-  return board[index]
+  if won?(board) != false
+  
 end
 end
