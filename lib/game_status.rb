@@ -56,7 +56,6 @@ end
 
 def winner(board)
   if won?(board) != false
-  won?(board).last == n
-  return board(n)
+  return board[won?(board).last]
 end
 end
