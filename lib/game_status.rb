@@ -55,7 +55,7 @@ end
 end
 
 def winner(board)
-  if won?(board) = true
-    return win_combination[2]
+  if won?(board) != false
+    return win_combination
 end
 end
