@@ -58,3 +58,4 @@ def winner(board)
   if won?(board)
     return win_combination[3]
 end
+end
